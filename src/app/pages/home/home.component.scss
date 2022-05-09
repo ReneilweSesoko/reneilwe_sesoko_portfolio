@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+}
+
+h1{
+    font-size: 50pt;
+    background: linear-gradient(-30deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 100% 50%;
+	}
+	50% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
