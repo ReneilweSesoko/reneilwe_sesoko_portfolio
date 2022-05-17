@@ -7,6 +7,7 @@ import { TopNavComponent } from './components/top-nav/top-nav.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CurriculmVitaeComponent } from './components/curriculm-vitae/curriculm-vitae.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CurriculmVitaeComponent } from './components/curriculm-vitae/curriculm-
     TopNavComponent,
     HomeComponent,
     FooterComponent,
-    CurriculmVitaeComponent
+    CurriculmVitaeComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,7 @@
 a{
     color: white;
 }
+
 ul li .nav-item{
     color: white;
 }
@@ -17,4 +18,10 @@ nav{
 
 span .navbar-toggler{
     color: white;
+}
+
+a:hover{
+    background: linear-gradient(-30deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
