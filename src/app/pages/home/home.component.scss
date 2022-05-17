@@ -3,11 +3,11 @@
 	position: relative;
     min-width: 100%;
     height: auto;
-    min-height: 30rem;
+    min-height: 100vh;
 	//height: 100vh;
 }
 
-h1,.sv, .abts {
+h1,.sv, .abts, .col .abt{
     background: linear-gradient(-30deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -41,19 +41,10 @@ h1,.sv, .abts {
 	}
 }
 
-.crd{
+// .col .abt{
+// 	background: linear-gradient(-30deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+// }
 
-	background: rgba( 255, 255, 255, 0.03 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-bottom: 1px solid rgba( 255, 255, 255, 0.18 );
-	
+.card{
+	box-shadow: rgba(193, 46, 88, 0.3) 0px 0px 40px;
 }
-
-footer{
-    background: rgba( 255, 255, 255, 0.03 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-}
-
-
