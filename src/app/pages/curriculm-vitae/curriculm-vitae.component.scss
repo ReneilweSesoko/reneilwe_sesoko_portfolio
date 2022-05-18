@@ -1,0 +1,47 @@
+.container{
+    min-height: 100vh;
+}
+
+.sv, .abts,.abt{
+    background: linear-gradient(-30deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+}
+
+.abt, .abts{
+	letter-spacing: .6rem;
+}
+
+.line{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(2deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+// .d-flex{
+    
+// }
+
+.blob{
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    background: #8f44fd url("https://unsplash.com/photos/8bghKxNU1j0");
+    background-size: cover;
+    background-position: center;
+    animation: morph 3.75s linear infinite;
+}
+
+@keyframes morph {
+    0%, 100%{
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33%{
+        border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66%{
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+}
