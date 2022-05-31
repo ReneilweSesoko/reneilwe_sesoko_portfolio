@@ -48,3 +48,26 @@ h1,.sv, .abts, .col .abt{
 .card{
 	box-shadow: rgba(193, 46, 88, 0.3) 0px 0px 40px;
 }
+
+.blob{
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    background: #8f44fd url("https://unsplash.com/photos/8bghKxNU1j0");
+    background-size: cover;
+    background-position: center;
+    animation: morph 3.75s linear infinite;
+}
+
+@keyframes morph {
+    0%, 100%{
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33%{
+        border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66%{
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+}
